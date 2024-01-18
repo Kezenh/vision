@@ -6,7 +6,7 @@ function Map() {
     return (
         <div className='map'>
             <Background></Background>
-            <Turret></Turret>
+            <Turret x='1030' y = '265'></Turret>
         </div>
     )
 }
