@@ -1,15 +1,16 @@
-import turret from "../src/assets/turret.png";
-import "./css/turret.css"
+import "./css/turret.css";
 import Button from "./Button";
 
 function Turret(props) {
 const x = props.x
 const y = props.y
+const turretName = props.turretName
+const src = require(`./assets/${turretName}.png`)
 
     return (
         <>
-            <img id="turret" className="turret" src={turret} alt="turret"/>
-            <Button x={x} y={y}></Button>
+            <img id={turretName} className="turret" src={src} alt="turret"/>
+            <Button x={x} y={y} turretName={turretName}></Button>
         </>
     )
 }
