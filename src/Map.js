@@ -18,6 +18,18 @@ function Map() {
             <Turret x='1222' y='741' turretName='rb1'></Turret>
             <Turret x='1185' y='475' turretName='rb2'></Turret>
             <Turret x='982' y='88' turretName='rt3'></Turret>
+            <Turret x='984' y='986' turretName='bb1'></Turret>
+            <Turret x='653' y='606' turretName='bm1'></Turret>
+            <Turret x='306' y='319' turretName='bt1'></Turret>
+            <Turret x='730' y='956' turretName='bb2'></Turret>
+            <Turret x='595' y='718' turretName='bm2'></Turret>
+            <Turret x='344' y='583' turretName='bt2'></Turret>
+            <Turret x='none' y='none' turretName='bf'></Turret>
+            <Turret x='359' y='902' turretName='bt4'></Turret>
+            <Turret x='318' y='758' turretName='bt3'></Turret>
+            <Turret x='540' y='975' turretName='bb3'></Turret>
+            <Turret x='395' y='935' turretName='bb4'></Turret>
+            <Turret x='497' y='800' turretName='bm3'></Turret>
         </div>
     )
 }
