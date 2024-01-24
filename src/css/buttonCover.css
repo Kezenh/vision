@@ -1,0 +1,17 @@
+.buttonCover {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.textCover {
+    color: white;
+    width: 100px;
+}
+
+.boxCover {
+    display: flex;
+    margin: 10px 10px 0 10px;
+    justify-content: space-between;
+}

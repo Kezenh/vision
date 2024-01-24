@@ -1,5 +1,5 @@
 import "./css/turret.css";
-import Button from "./Button";
+import ButtonTurret from "./ButtonTurret";
 
 function Turret(props) {
 const x = props.x
@@ -10,7 +10,7 @@ const src = require(`./assets/${turretName}.png`)
     return (
         <>
             <img id={turretName} className="turret" src={src} alt="turret"/>
-            <Button x={x} y={y} turretName={turretName}></Button>
+            <ButtonTurret x={x} y={y} turretName={turretName}></ButtonTurret>
         </>
     )
 }
