@@ -19,7 +19,7 @@ function ButtonCover(props) {
     return (
         <div className="boxCover">
             <p className="textCover">{side} side</p>
-            <div id={id} className="buttonCover" onClick={() => click()}></div>
+            <div id={id} className="buttonCover" onClick={click}></div>
         </div>
     )
 }

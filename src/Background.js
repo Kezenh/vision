@@ -3,7 +3,7 @@ import "./css/background.css"
 
 function Background(){
     return (
-        <img className="background" src={background} alt="background" />
+        <img className="background" src={background} alt="background"/>
     )
 }
 

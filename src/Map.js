@@ -2,12 +2,13 @@ import Background from './Background';
 import Turret from "./Turret"
 import Cover from './Cover';
 import LeftOverlay from './LeftOverlay';
+import WardBox from './WardBox';
 import "./css/map.css"
 
 function Map() {
     return (
-        <div className='map'>
-            <Background></Background>
+        <div className='map' id='map'>
+            {/* <Background></Background>
             <Turret x='none' y='none' turretName='bf'></Turret>
             <Turret x='359' y='902' turretName='bt4'></Turret>
             <Turret x='395' y='935' turretName='bb4'></Turret>
@@ -34,7 +35,8 @@ function Map() {
             <Turret x='1222' y='741' turretName='rb1'></Turret>
             <Cover side="Blue"></Cover>
             <Cover side="Red"></Cover>
-            <LeftOverlay></LeftOverlay>
+            <LeftOverlay></LeftOverlay> */}
+            <WardBox></WardBox>
         </div>
     )
 }

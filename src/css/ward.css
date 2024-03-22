@@ -1,0 +1,16 @@
+.wardButton {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: purple;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    z-index: 100000;
+}
+
+.wardCanvas {
+    position: absolute;
+    top: -60px;
+    left: -60px;
+}

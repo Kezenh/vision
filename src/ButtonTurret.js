@@ -11,7 +11,7 @@ function ButtonTurret(props) {
         width: 25px;
         height: 25px;
         background-color: green;
-        z-index: 2;
+        z-index: 9998;
         position: absolute;
         border-radius: 50%;
         top: ${y}px;
@@ -76,7 +76,7 @@ function ButtonTurret(props) {
     }
 
     return (
-        <ButtonTurret id={id} onClick={() => click()}></ButtonTurret>
+        <ButtonTurret id={id} onClick={click}></ButtonTurret>
     )
 }
 
