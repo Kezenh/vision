@@ -1,6 +1,7 @@
 .wardBox {
     position: absolute;
-    z-index: 2100;
+    z-index: 1000;
     width: 1920px;
     height: 1080px;
+    background-color: transparent;
 }
